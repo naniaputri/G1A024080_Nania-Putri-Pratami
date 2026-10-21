@@ -1,6 +1,0 @@
-model,accuracy,macro_f1,acc_saat_berawan
-RF konteks | S1,0.779,0.742,0.795
-RF konteks | S2,0.646,0.666,0.321
-RF konteks | S1+S2,0.886,0.864,0.782
-RF piksel mentah | S1+S2,0.787,0.714,0.703
-MLP piksel mentah | S1+S2,0.88,0.858,0.839
