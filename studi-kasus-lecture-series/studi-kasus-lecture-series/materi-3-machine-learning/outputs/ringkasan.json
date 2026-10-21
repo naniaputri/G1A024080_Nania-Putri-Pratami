@@ -1,0 +1,56 @@
+{
+  "klasifikasi": {
+    "Rule-based (manual)": {
+      "accuracy": 0.69,
+      "precision": 0.637,
+      "recall": 0.389,
+      "f1": 0.483
+    },
+    "Logistic Regression": {
+      "accuracy": 0.74,
+      "precision": 0.71,
+      "recall": 0.51,
+      "f1": 0.594
+    },
+    "Decision Tree (depth=4)": {
+      "accuracy": 0.74,
+      "precision": 0.771,
+      "recall": 0.43,
+      "f1": 0.552
+    },
+    "Random Forest": {
+      "accuracy": 0.728,
+      "precision": 0.669,
+      "recall": 0.53,
+      "f1": 0.592
+    }
+  },
+  "overfitting": {
+    "depth_terbaik": 6,
+    "train_acc_depth20": 1.0,
+    "test_acc_depth20": 0.63
+  },
+  "regresi": {
+    "Linear Regression": {
+      "MAE_juta": 62.0,
+      "R2": 0.974
+    },
+    "Random Forest": {
+      "MAE_juta": 60.8,
+      "R2": 0.971
+    }
+  },
+  "deploy_contoh": {
+    "prediksi_juta": 805.6
+  },
+  "clustering": {
+    "k_terbaik": 3,
+    "silhouette": {
+      "2": 0.694,
+      "3": 0.812,
+      "4": 0.561,
+      "5": 0.425,
+      "6": 0.412
+    }
+  }
+}
